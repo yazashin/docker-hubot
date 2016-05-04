@@ -1,0 +1,7 @@
+hubot:
+  build: .
+  ports:
+    - "8080:8080"
+  volumes:
+    - ./app:/home/sunny3/app
+  container_name: hubot 
